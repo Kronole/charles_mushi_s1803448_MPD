@@ -1,0 +1,10 @@
+#Thu Apr 09 10:03:34 EAT 2020
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=C\:\\Users\\USER\\Desktop\\gcu\\Android course work\\charles_mushi_s1803448\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.1=C\:\\Users\\USER\\Desktop\\gcu\\Android course work\\charles_mushi_s1803448\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+base.0=C\:\\Users\\USER\\Desktop\\gcu\\Android course work\\charles_mushi_s1803448\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out

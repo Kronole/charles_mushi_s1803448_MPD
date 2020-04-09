@@ -1,0 +1,34 @@
+<!--
+      Student name: Charles Mushi
+      Student ID: S1803448
+      -->
+<resources>
+    <string name="app_name">Charles Mushi MPD </string>
+    <string name="studentname">Student name: Charles Mushi</string>
+    <string name="studentid">Student ID: S1803448</string>
+    <string name="course">MPD Coursework</string>
+    <string name="quakes">Earthquakes</string>
+    <string name="category">%s&#160;</string>
+    <string name="depth">%d %s&#160;</string>
+    <string name="magnitude">%f&#160;</string>
+    <string name="link">%s&#160;</string>
+    <string name="publish">%s&#160;</string>
+    <string name="lat">%f&#160;</string>
+    <string name="lon">%f&#160;</string>
+    <string name="location">%s&#160;</string>
+    <string name="title">%s&#160;</string>
+    <string name="orig">%s&#160;</string>
+    <string name="sdate">Select Date:</string>
+    <string name="idate">Initial date</string>
+    <string name="edate">End Date:</string>
+    <string name="norther">%f - %s&#160;</string>
+    <string name="souther">%f - %s&#160;</string>
+    <string name="largem">%f - %s&#160;</string>
+    <string name="easter">%f - %s&#160;</string>
+    <string name="deepestearth">: %d - %s&#160;</string>
+    <string name="shallowearth">: %d - %s&#160;</string>
+    <string name="wester">: %f - %s&#160;</string>
+    <string name="title_map">Maps</string>
+    <string name="nodata">Empty</string>
+    <string name="search">Search</string>
+</resources>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+      Student name: Charles Mushi
+            Student ID: S1803448
+      -->
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/itemTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background">
+
+                <TableRow android:padding="8dp" android:background="@color/colorAccent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Location:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="0dp"/>
+                    <TextView
+                        android:id="@+id/loc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"/>
+                </TableRow>
+
+                <TableRow android:padding="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Magnitude:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="0dp"/>
+                    <TextView
+                        android:id="@+id/mag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"/>
+                </TableRow>
+
+                <TableRow android:padding="8dp" android:background="@color/colorAccent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Depth:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="0dp"/>
+                    <TextView
+                        android:id="@+id/dep"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"/>
+                </TableRow>
+
+                <TableRow android:padding="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Category:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="0dp"/>
+                    <TextView
+                        android:id="@+id/category"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"/>
+                </TableRow>
+
+
+
+                <TableRow android:padding="8dp" android:background="@color/colorAccent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Latitude:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="0dp"/>
+                    <TextView
+                        android:id="@+id/lat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"/>
+                </TableRow>
+
+                <TableRow android:padding="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Longitude:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="0dp"/>
+                    <TextView
+                        android:id="@+id/lon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"/>
+                </TableRow>
+
+                <TableRow android:padding="8dp" android:background="@color/colorAccent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Origin Date:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="0dp"/>
+                    <TextView
+                        android:id="@+id/origDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"/>
+                </TableRow>
+
+                <TableRow android:padding="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Published:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="0dp"/>
+                    <TextView
+                        android:id="@+id/pubDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"/>
+                </TableRow>
+                <TableRow android:padding="8dp" android:background="@color/colorAccent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Link:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="0dp"/>
+                    <TextView
+                        android:id="@+id/link"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"/>
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/mapView"
+                android:background="@color/blackcol"
+                android:text="Map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
